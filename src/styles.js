@@ -23,6 +23,14 @@ export default makeStyles((theme) => ({
   image: {
     marginLeft: 10,
   },
+  header: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    textShadow:
+      "0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa",
+    color: "#ffffff",
+  },
   card: {
     display: "flex",
     justifyContent: "center",
@@ -65,8 +73,8 @@ export default makeStyles((theme) => ({
     },
   },
   alanLogo: {
-    height: "27vmin",
-    borderRadius: "15%",
+    height: "29vmin",
+    borderRadius: "50%",
     padding: "0 5%",
     margin: "3% 0",
     [theme.breakpoints.down("sm")]: {

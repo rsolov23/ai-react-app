@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import alanBtn from "@alan-ai/alan-sdk-web";
-import { Typography } from "@material-ui/core";
+import { Typography, Box } from "@material-ui/core";
 import wordsToNumbers from "words-to-numbers";
 import NewsCards from "./components/NewsCards/NewsCards";
-import image from "../src/images/alan_ai.png";
+import image from "../src/images/alan.png";
 import useStyles from "./styles";
 
 const App = () => {
@@ -49,7 +49,12 @@ const App = () => {
       <div className={classes.logoContainer}>
         <img src={image} className={classes.alanLogo} alt="logo" />
       </div>
-      <NewsCards articles={newsArticles} />
+      {/* <div className={classes.header}>
+        <Typography variant="h4" component="h4">
+          <Box sx={{ fontWeight: "bold", m: 1, fontSize: 45 }}> Alan AI</Box>
+        </Typography>
+      </div> */}
+      <NewsCards articles={newsArticles} activeArticle={activeArticle} />
     </div>
   );
 };
