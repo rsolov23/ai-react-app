@@ -42,7 +42,7 @@ export default makeStyles((theme) => ({
     backgroundColor: "rgba(21, 101, 192)",
     margin: "0 12px",
     textAlign: "center",
-    height: "25vmin",
+    height: "25vh",
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column-reverse",
       textAlign: "center",
@@ -73,12 +73,12 @@ export default makeStyles((theme) => ({
     },
   },
   alanLogo: {
-    height: "29vmin",
+    height: "29vh",
     borderRadius: "50%",
     padding: "0 5%",
     margin: "3% 0",
     [theme.breakpoints.down("sm")]: {
-      height: "35vmin",
+      height: "35vh",
     },
   },
 }));

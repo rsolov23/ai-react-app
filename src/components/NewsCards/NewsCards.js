@@ -4,21 +4,18 @@ import { Grid, Grow, Typography } from "@material-ui/core";
 import useStyles from "../NewsCards/styles";
 
 const infoCards = [
-  { color: "#337fd3", title: "Latest News", text: "Give me the latest news" },
+  { title: "Latest News", text: "Give me the latest news" },
   {
-    color: "#2ee09a",
     title: "News by Categories",
     info: "Business, Entertainment,Sports, Technology",
     text: "Give me the latest Technology news",
   },
   {
-    color: "#2ee09a",
     title: "News by Terms",
     info: "Bitcoin, PlayStation 5, Smartphones...",
     text: "What's up with Bitcoin",
   },
   {
-    color: "#2ee09a",
     title: "News by Sources",
     info: "CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...",
     text: "Give me  news from CNN",
